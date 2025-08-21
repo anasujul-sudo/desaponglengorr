@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Desa Pong Lengor</title>
+    <style>
+        body, h1, h2, h3, p, ul, li, a { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        body { background-color: #f5f5f5; color: #333; }
+
+        header {
+            background: linear-gradient(135deg, #4caf50, #6a0dad);
+            color: white;
+            padding: 25px 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        header h1 { margin-bottom: 5px; }
+
+        nav { position: sticky; top: 0; z-index: 100; background-color: #2c2c2c; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+        nav ul { list-style: none; display: flex; justify-content: center; }
+        nav ul li { margin: 0 15px; }
+        nav ul li a { text-decoration: none; color: white; padding: 10px; display: block; transition: all 0.3s ease; }
+        nav ul li a:hover, nav ul li a.active { background: linear-gradient(45deg, #4caf50, #6a0dad); color: white; border-radius: 5px; transform: scale(1.1); }
+
+        .content { padding: 20px; max-width: 1000px; margin: auto; }
+        section { padding: 40px 20px; border-bottom: 1px solid #ddd; background-color: #fff; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h2 { color: #4caf50; margin-bottom: 10px; }
+
+        footer { background: linear-gradient(135deg, #4caf50, #6a0dad); color: white; text-align: center; padding: 20px 10px; }
+
+        form input, form textarea, form button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; }
+        form button { background-color: #4caf50; color: white; border: none; cursor: pointer; transition: all 0.3s ease; }
+        form button:hover { background-color: #6a0dad; transform: scale(1.05); }
+
+        /* Galeri dan berita */
+        .gallery img { width: 100%; max-width: 300px; margin: 5px; border-radius: 5px; }
+        .news-container { display: flex; flex-wrap: wrap; gap: 20px; }
+        .news-card { flex: 1 1 300px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Profil Desa Pong Lengor</h1>
+        <p>Desa Pong Lengor, Kecamatan Rahong Utara, Kabupaten Manggarai, Provinsi NTT</p>
+    </header>
+
+    <!-- Menu Navigasi -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#berita">Berita / Pengumuman</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#kontak">Kontak Us</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <!-- Konten -->
+    <div class="content">
+
+        <!-- Home -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>Selamat datang di website resmi Desa Pong Lengor.</p>
+            <p>Jumlah penduduk: 2.179 jiwa</p>
+			<p>jumlah dusun	  :5</p>
+			<p>luas wilayah	  :123 km</p>
+			<p>nomor telepon  :123456789</p>
+			<p>nama kepala desa :salesius gonzaga guntur</p>
+			<p>tahun menjabat   :2021-2029
+            <p>Lokasi desa: <a href="https://www.google.com/maps/place/Pong+Lengor,+Kec.+Rahong+Utara,+Kab.+Manggarai,+NTT" target="_blank">Lihat di Google Maps</a></p>
+
+            <!-- Slider Gambar -->
+            <div class="gallery">
+                <img src="desa1.jpg" alt="Gambar Desa 1">
+                <img src="desa2.jpg" alt="Gambar Desa 2">
+                <img src="desa3.jpg" alt="Gambar Desa 3">
+            </div>
+        </section>
+
+        <!-- Profil -->
+        <section id="profil">
+            <h2>Profil Desa</h2>
+            <p>Desa Pong Lengor adalah desa yang terletak di Kecamatan Rahong Utara, Kabupaten Manggarai, Provinsi NTT. Desa ini memiliki potensi budaya dan wisata yang menarik.</p>
+        </section>
+
+        <!-- Berita -->
+        <section id="berita">
+            <h2>Berita / Pengumuman</h2>
+            <div class="news-container">
+                <div class="news-card">
+                    <h3>Pengumuman </h3>
+                    <p>Tanggal:</p>
+                    <p>Belum ada pengumuman</p>
+                </div>
+                <div class="news-card">
+                    <h3>Berita Desa</h3>
+                    <p>Tanggal: 19 Agustus 2025</p>
+                    <p>Penerimaan mahasiswa KKN Unika St. Paulus Ruteng, penyambutan dikenal dengan istilah "kapu"</p>
+				<div class="gallery">
+				     <img src="desa5.jpg" alt="Desa 5">
+                </div>					 
+				
+            </div>
+        </section>
+
+        <!-- Galeri -->
+        <section id="galeri">
+            <h2>Galeri</h2>
+            <p>Tempat wisata yang dapat dikunjungi, cunca lega.</p>
+            <div class="gallery">
+                <img src="desa4.jpg" alt="Desa 4">
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="kontak">
+            <h2>Kontak Us</h2>
+            <p>Email: <a href="mailto:desaponglengor368@gmail.com">desaponglengor368@gmail.com</a></p>
+            <p>Alamat: Desa Pong Lengor, Kecamatan Rahong Utara, Kabupaten Manggarai, Provinsi NTT</p>
+
+            <h3>tulis ulasan</h3>
+            <form id="contactForm">
+                <input type="text" name="nama" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="pesan" placeholder="Pesan Anda" rows="5" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            <div id="formMessage" style="margin-top:10px; color:green;"></div>
+        </section>
+
+        <!-- Tentang -->
+        <section id="tentang">
+            <h2>Tentang Desa</h2>
+            <p>Website ini dibuat untuk memberikan informasi mengenai Desa Pong Lengor, termasuk profil desa, potensi wisata, berita, dan kontak resmi desa " web ini dalam percobaan"</p>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Profil Desa Pong Lengor | Email: desaponglengor368@gmail.com
+    </footer>
+
+    <!-- Script menu aktif -->
+    <script>
+        const sections = document.querySelectorAll('section');
+        const menuLinks = document.querySelectorAll('nav ul li a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 60;
+                if(pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            menuLinks.forEach(link => {
+                link.classList.remove('active');
+                if(link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+    <!-- Script kontak AJAX -->
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(e){
+            e.preventDefault();
+            const formData = new FormData(this);
+            fetch("send_mail.php", { method: "POST", body: formData })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("formMessage").style.color = "green";
+                document.getElementById("formMessage").innerHTML = data;
+                document.getElementById("contactForm").reset();
+            })
+            .catch(error => {
+                document.getElementById("formMessage").style.color = "red";
+                document.getElementById("formMessage").innerHTML = "Terjadi kesalahan. Silakan coba lagi.";
+                console.error("Error:", error);
+            });
+        });
+    </script>
+
+</body>
+</html>
